@@ -11,5 +11,6 @@ We’re learning Vue.js by building a Modern Fitness App.
 I’m watching the tutorial to become more familiar with using Vue.js to build a complete application.
 
 I also have a Vue roadmap to guide me throughout the process. It helps me understand what I should learn next and track my progress along the way.
+
 📌 You can find a roadmap for any skill or programming language at roadmap.sh. It's been really helpful in my learning process.
 
