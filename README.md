@@ -3,7 +3,7 @@
 
 This is the beginning of my journey learning Vue.js.
 Below is the YouTube tutorial I'm following as part of my Vue learning journey:
-🔗 https://youtu.be/JAgeFLJYrUY?si=lMCI9hARZi_Owdr3utorial Video
+🔗 https://youtu.be/JAgeFLJYrUY?si=lMCI9hARZi_Owdr3utorial 
 
 This tutorial is beginner-friendly. The instructor explains everything slowly and in detail from setting up a Vue project to deploying a finished Modern Fitness App. So, if you find other tutorials too fast to follow, this one might be a better fit. Not only will you learn Vue.js, but you'll also get hands-on practice by building a real-world app.
 
