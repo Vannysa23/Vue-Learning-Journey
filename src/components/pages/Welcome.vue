@@ -43,6 +43,7 @@
     }
 
     .challenge {
+        margin: 20px 0;
         gap: 0.25rem;
     }
 
