@@ -4,7 +4,7 @@
 
 <template>
     <header>
-        <h1>Header</h1>
+        <h1>Vue</h1>
     </header>
     <main>
         <slot />
@@ -25,7 +25,7 @@
     header, main, footer {
         padding: 1rem;
         width: 100%;
-        max-width: 700px;
+        max-width: 1200px;
         margin: 0 auto; 
     }
 
