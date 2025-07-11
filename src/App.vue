@@ -6,8 +6,9 @@
   import Workout from './components/pages/Workout.vue';
   import Listitem from './components/Listitem.vue';
   import BaseButton from './components/ui/BaseButton.vue';
+  import Calculator from './components/Calculator.vue';
 
-  const selectedDisplay = 4;
+  const selectedDisplay = 5;
 
   import { ref } from "vue";
 
@@ -82,6 +83,7 @@
       :position="index"
       @deleteItem="deleteCard"
     />
+    <Calculator v-if="selectedDisplay == 5" />
 
   </Layout>
 

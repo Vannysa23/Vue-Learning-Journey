@@ -9,14 +9,17 @@
     <main>
         <slot />
     </main>
-    <footer>
-        <small>Vue Learning Journey &copy;2025</small>
-        <div class="footer-link">
-            <a class="media-link" href="https://github.com/Vannysa23">
-                <img class="git-profile" src="https://avatars.githubusercontent.com/u/150645093?v=4" alt="Github-Profile">
-                <span>NYSA</span>
-            </a>
+    <footer class="position-relative">
+        <div class="footer-container">
+            <small>Vue Learning Journey &copy;2025</small>
+            <div class="footer-link">
+                <a class="media-link" href="https://github.com/Vannysa23">
+                    <img class="git-profile" src="https://avatars.githubusercontent.com/u/150645093?v=4" alt="Github-Profile">
+                    <span>NYSA</span>
+                </a>
+            </div>
         </div>
+
         
     </footer>
 </template>
@@ -29,7 +32,14 @@
         margin: 0 auto; 
     }
 
-    footer{
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-container{
+        position: fixed;
+        bottom: 0;
         margin: 10px auto;
     }
 
