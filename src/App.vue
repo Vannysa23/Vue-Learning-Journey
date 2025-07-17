@@ -3,12 +3,13 @@
   import Welcome from './components/pages/Welcome.vue';
   import Layout from './components/layouts/layout.vue';
   import Dashboard from './components/pages/Dashboard.vue';
+  import Login from './components/pages/LoginFrm.vue';
   import Workout from './components/pages/Workout.vue';
   import Listitem from './components/Listitem.vue';
   import BaseButton from './components/ui/BaseButton.vue';
   import Calculator from './components/Calculator.vue';
 
-  const selectedDisplay = 5;
+  const selectedDisplay = 6;
 
   import { ref } from "vue";
 
@@ -84,6 +85,7 @@
       @deleteItem="deleteCard"
     />
     <Calculator v-if="selectedDisplay == 5" />
+    <Login v-if="selectedDisplay == 6" />
 
   </Layout>
 
