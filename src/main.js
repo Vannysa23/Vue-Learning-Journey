@@ -1,8 +1,9 @@
 import { createApp } from 'vue'
-import './style.css'
-import './fanta.css'
+import './assets/css/style.css'
+import './assets/css/fanta.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 import App from './App.vue'
+import router from './router/index'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
